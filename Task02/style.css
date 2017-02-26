@@ -1,0 +1,221 @@
+/********************* common ************************/
+h2 {
+  font-size: 18px;
+  line-height: 18px;
+  color: #000;
+}
+
+h3 {
+  font-size: 14px;
+  line-height: 14px;
+  color: rgb(106, 106, 106);
+}
+
+h4 {
+  font-size: 12px;
+  line-height: 12px;
+  color: rgb(106, 106, 106);
+}
+
+* {
+  font-size: 14px;
+  line-height: 28px;
+}
+
+/********************* header ************************/
+header {
+  position: relative;
+}
+
+header nav {
+  background-color: rgb(51, 51, 51);
+  width: 100%;
+  height: 60px;
+  /*font-size:0;*/
+}
+
+header ul {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  /*margin-top: 24px;*/
+}
+
+header ul li {
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+}
+
+header ul li a {
+  font-size: 12px;
+  height: 60px;
+  line-height: 60px;
+  text-decoration: none;
+  color: #fff;
+}
+
+header ul li:hover {
+  border-bottom: 1px solid red;
+  background-color: #474747;
+  border-radius: 2px;
+}
+
+.icon {
+  display: inline-block;
+}
+
+/********************* main ************************/
+body {
+  background-color: #dedede;
+  font-family: "Microsoft YaHei";
+}
+
+article, aside {
+  margin:30px;
+  padding: 30px 20px;
+  border: 1px solid rgba(7, 17, 27, 0.5);
+  background-color: #fff;
+  box-shadow: 1px 1px 1px #474747;
+}
+
+article h2 {
+  margin-bottom: 16px;
+}
+
+article h3 {
+  margin-bottom: 14px;
+}
+
+.author-info {
+  font-size: 12px;
+  line-height: 12px;
+  margin-bottom: 10px;
+  color: rgb(106, 106, 106);
+}
+
+article img {
+  margin: 10px auto;
+}
+
+article ul {
+  margin-left: 30px;
+}
+
+article figure {
+  border: 1px solid rgb(7, 17, 27);
+  width: 124px;
+  padding: 2px 2px;
+  margin: 18px auto 18px 40px;
+}
+
+article figure figcaption{
+  text-align: center;
+}
+
+article figure img {
+  margin: 2px 12px;
+  border: 1px solid #dedede;
+}
+
+article ol {
+  margin-left: 20px;
+  margin-bottom: 12px;
+}
+
+.table-info {
+  line-height: 22px;
+}
+
+article table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  border: 2px solid #dedede;
+}
+
+article table tr th {
+  color: #fff;
+  background-color: black;
+  padding-left: 8px;
+  border: 2px solid #dedede;
+}
+
+article table tr td {
+  padding-left: 8px;
+  border: 2px solid #dedede;
+}
+
+article table .table-sum{
+  background-color: #dedede;
+  color:#000;
+  font-weight: 700;
+}
+
+/********************* aside ************************/
+aside {
+  font-size: 14px;
+  line-height: 32px;
+  padding: 20px 20px;
+}
+
+aside h3{
+  color:#000;
+  line-height: 30px;
+  margin-bottom: 14px;
+  border-left: 3px solid #dedede;
+}
+
+aside p {
+  margin-left:35%;
+  padding-left: 4px;
+  color: #dedede;
+  font-size:12px;
+}
+
+aside input {
+  border: 1px solid #dedede;
+}
+
+.tips {
+  float: left;
+  text-align: right;
+  width: 35%;
+  margin-right: 4px;
+}
+
+.sex {
+  vertical-align: top;
+}
+
+.submit {
+  text-align: center;
+}
+
+.submit:hover{
+  background: #0063dc;
+}
+
+.bottom,aside p {
+  margin-bottom: 8px;
+}
+
+button {
+  width: 100%;
+  background-color: #2d74cc;
+  border-radius:8px;
+  color: #fff;
+  border: none;
+}
+
+/********************* footer ************************/
+footer {
+  background-color: #000;
+  text-align: center;
+  padding: 20px 0;
+  height: 60px;
+}
+
+footer span {
+  color: white;
+}
