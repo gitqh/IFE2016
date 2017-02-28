@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="../Common/style/reset.css">
+  <style type="text/css">
+    html, body {
+      height:100%;
+    }
+    .link {
+      position: absolute;
+      top: 0;
+      margin-left: 40%;
+    }
+    .link a {
+      display: inline-block;
+      color:#fff;
+      background-color: #000;
+      text-decoration: none;
+      padding:10px;
+      margin-right: 10px;
+      font-size: 16px;
+    }
+    .link a:hover {
+      background-color: lightblue;
+      color: #000;
+    }
+    .wrapper {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      display: -webkit-flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .inner {
+      height: 200px;
+      width: 400px;
+      background-color: #ccc;
+      overflow: hidden;
+      position: relative;
+    }
+    .left, .right {
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      background-color: #fc0;
+      border-radius: 50%;
+    }
+    .left {
+      top: -50px;
+      left: -50px;
+    }
+    .right {
+      bottom:-50px;
+      right: -50px;
+    }
+  </style>
+</head>
+<body>
+<div class="link">
+  <a href="#">定位居中</a>
+  <a href="index-flex.html">flex居中</a>
+  <a href="index-table.html">表格居中</a>
+</div>
+<div class="wrapper">
+  <div class="inner">
+    <div class="left"></div>
+    <div class="right"></div>
+  </div>
+</div>
+</body>
+</html>
